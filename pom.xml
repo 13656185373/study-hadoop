@@ -22,7 +22,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>RELEASE</version>
+        <version>4.11</version>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
@@ -65,7 +65,7 @@
           </descriptorRefs>
           <archive>
             <manifest>
-              <mainClass>com.auguuuste.study.wordCount.WordcountDriver</mainClass>
+                <mainClass>com.auguuuste.study.etl.VideoETLRunner</mainClass>
             </manifest>
           </archive>
         </configuration>
